@@ -1,0 +1,8 @@
+-r requirements-find-links.txt
+
+# odoo
+-r https://raw.githubusercontent.com/odoo/odoo/10.0/requirements.txt
+-e git+ssh://git@github.com/resultrum/odoo.git@10.0-ocm_master#egg=odoo
+
+# local project
+-e .
